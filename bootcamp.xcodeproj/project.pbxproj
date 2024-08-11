@@ -11,6 +11,8 @@
 		8C47AEFA2C688D0E00E7E7D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47AEF92C688D0E00E7E7D0 /* ContentView.swift */; };
 		8C47AEFC2C688D0F00E7E7D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C47AEFB2C688D0F00E7E7D0 /* Assets.xcassets */; };
 		8C47AEFF2C688D0F00E7E7D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C47AEFE2C688D0F00E7E7D0 /* Preview Assets.xcassets */; };
+		8C47AF082C68C35D00E7E7D0 /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47AF072C68C35D00E7E7D0 /* TextTutorial.swift */; };
+		8C47AF0A2C68C42000E7E7D0 /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47AF092C68C42000E7E7D0 /* ShapesTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8C47AEF92C688D0E00E7E7D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C47AEFB2C688D0F00E7E7D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C47AEFE2C688D0F00E7E7D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C47AF072C68C35D00E7E7D0 /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
+		8C47AF092C68C42000E7E7D0 /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				8C47AEF92C688D0E00E7E7D0 /* ContentView.swift */,
 				8C47AEFB2C688D0F00E7E7D0 /* Assets.xcassets */,
 				8C47AEFD2C688D0F00E7E7D0 /* Preview Content */,
+				8C47AF072C68C35D00E7E7D0 /* TextTutorial.swift */,
+				8C47AF092C68C42000E7E7D0 /* ShapesTutorial.swift */,
 			);
 			path = bootcamp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C47AEFA2C688D0E00E7E7D0 /* ContentView.swift in Sources */,
+				8C47AF082C68C35D00E7E7D0 /* TextTutorial.swift in Sources */,
 				8C47AEF82C688D0E00E7E7D0 /* bootcampApp.swift in Sources */,
+				8C47AF0A2C68C42000E7E7D0 /* ShapesTutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
