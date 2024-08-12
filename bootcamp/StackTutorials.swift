@@ -39,7 +39,9 @@ struct StackTutorials: View {
                         
                         
                         
-                    }.clipped()
+                    }
+                    .cornerRadius(20)
+                    .clipped()
                     
                     ZStack(alignment: .topLeading){
                         Rectangle()
