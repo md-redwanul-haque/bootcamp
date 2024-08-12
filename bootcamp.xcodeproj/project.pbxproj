@@ -15,6 +15,7 @@
 		8C47AF0A2C68C42000E7E7D0 /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47AF092C68C42000E7E7D0 /* ShapesTutorial.swift */; };
 		8C6CB9852C69D8A2001C1ABD /* IconTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB9842C69D8A2001C1ABD /* IconTutorial.swift */; };
 		8C6CB9872C69E336001C1ABD /* ImagesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB9862C69E336001C1ABD /* ImagesTutorial.swift */; };
+		8C6CB9892C6A03C2001C1ABD /* StackTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB9882C6A03C2001C1ABD /* StackTutorials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8C47AF092C68C42000E7E7D0 /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
 		8C6CB9842C69D8A2001C1ABD /* IconTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTutorial.swift; sourceTree = "<group>"; };
 		8C6CB9862C69E336001C1ABD /* ImagesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTutorial.swift; sourceTree = "<group>"; };
+		8C6CB9882C6A03C2001C1ABD /* StackTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTutorials.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				8C47AF092C68C42000E7E7D0 /* ShapesTutorial.swift */,
 				8C6CB9842C69D8A2001C1ABD /* IconTutorial.swift */,
 				8C6CB9862C69E336001C1ABD /* ImagesTutorial.swift */,
+				8C6CB9882C6A03C2001C1ABD /* StackTutorials.swift */,
 			);
 			path = bootcamp;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				8C47AEF82C688D0E00E7E7D0 /* bootcampApp.swift in Sources */,
 				8C6CB9872C69E336001C1ABD /* ImagesTutorial.swift in Sources */,
 				8C6CB9852C69D8A2001C1ABD /* IconTutorial.swift in Sources */,
+				8C6CB9892C6A03C2001C1ABD /* StackTutorials.swift in Sources */,
 				8C47AF0A2C68C42000E7E7D0 /* ShapesTutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
