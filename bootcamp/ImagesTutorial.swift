@@ -9,7 +9,14 @@ import SwiftUI
 
 struct ImagesTutorial: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  
+        Image("spidy")
+            .resizable()
+//            .ignoresSafeArea()
+            .scaledToFill()
+            .frame(width: 300,height: 300)
+//            .clipShape(Circle())
+            .clipShape(RoundedRectangle(cornerRadius: 25))
     }
 }
 
