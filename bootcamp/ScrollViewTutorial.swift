@@ -9,7 +9,19 @@ import SwiftUI
 
 struct ScrollViewTutorial: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal){
+            HStack{
+                ForEach( 0..<50 , id: \.self) { index in
+                    Rectangle()
+                        .frame(width: 50,height: 50)
+                        .foregroundColor(.red)
+                    
+                    
+                }
+            }
+            
+            
+        }
     }
 }
 
