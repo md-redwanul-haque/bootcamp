@@ -8,17 +8,24 @@
 import SwiftUI
 
 struct LoopTutorial: View {
+    var driver = ["Person 1",
+                  "Person 2",
+                  "Person 3",
+                  "Person 4",
+                  "Person 5",]
+    
+    
     var body: some View {
         VStack(alignment:.leading ){
-            ForEach( 0 ... 4, id: \.self){
-                index in HStack{
+            ForEach( driver, id: \.self){
+                driver in HStack{
                     Image("spidy")
                         .resizable()
                         .scaledToFill()
                         .frame(width: 56,height: 56)
                         .clipShape(Circle())
                     VStack(alignment: .leading){
-                        Text("landonorris")
+                        Text(driver)
                             .font(.subheadline)
                             .fontWeight(.bold)
                         Text("lando Norris")
@@ -28,14 +35,18 @@ struct LoopTutorial: View {
                         
                     }
                     Spacer()
-                    
+                        
+                    Image(systemName: "paperplane.circle.fill")
+                        .font(.title)
+                        .foregroundColor(Color(.systemBlue))
                     
                     
                 }
                 .padding(.horizontal)
+           
                 
             }
-            
+            Spacer()
             
             
             
