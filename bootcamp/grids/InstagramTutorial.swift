@@ -71,6 +71,42 @@ struct InstagramTutorial: View {
                 .padding(.vertical, 4)
                 
                 
+                HStack(spacing: -10){
+                    Image("spidy")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 32,height: 32)
+                        .clipShape(Circle())
+                        .overlay(Circle().stroke(Color.white,lineWidth:2))
+                    
+                    Image("spidy")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 32,height: 32)
+                        .clipShape(Circle())
+                        .overlay(Circle().stroke(Color.white,lineWidth:2))
+                    Image("spidy")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 32,height: 32)
+                        .clipShape(Circle())
+                        .overlay(Circle().stroke(Color.white,lineWidth:2))
+                    
+                    HStack(spacing: 2){
+                        Text("Followed By")
+                        Text("Spider Man, ironman")
+                            .fontWeight(.semibold)
+                        Text("and")
+                        Text("146 others")
+                            .fontWeight(.semibold)
+                    }
+                    .font(.caption)
+                    .padding(.leading)
+                    
+                    Spacer()
+                }
+                
+                
             }
             .padding()
             
