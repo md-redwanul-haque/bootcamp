@@ -20,6 +20,8 @@
 		8C6CB98B2C6A221F001C1ABD /* PaddingTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB98A2C6A221F001C1ABD /* PaddingTutorial.swift */; };
 		8CBABFE72C6B61E500CD9A73 /* SpacerTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBABFE62C6B61E500CD9A73 /* SpacerTutorial.swift */; };
 		8CBABFE92C6B6B6A00CD9A73 /* LoopTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBABFE82C6B6B6A00CD9A73 /* LoopTutorial.swift */; };
+		8CE3D6862C7085CB00A2ACB8 /* GridTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3D6852C7085CB00A2ACB8 /* GridTutorial.swift */; };
+		8CE3D6892C70A8C900A2ACB8 /* InstagramTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3D6882C70A8C900A2ACB8 /* InstagramTutorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		8C6CB98A2C6A221F001C1ABD /* PaddingTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTutorial.swift; sourceTree = "<group>"; };
 		8CBABFE62C6B61E500CD9A73 /* SpacerTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerTutorial.swift; sourceTree = "<group>"; };
 		8CBABFE82C6B6B6A00CD9A73 /* LoopTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopTutorial.swift; sourceTree = "<group>"; };
+		8CE3D6852C7085CB00A2ACB8 /* GridTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTutorial.swift; sourceTree = "<group>"; };
+		8CE3D6882C70A8C900A2ACB8 /* InstagramTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		8C47AEF62C688D0E00E7E7D0 /* bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				8CE3D6872C70A8A700A2ACB8 /* grids */,
 				8C47AEF72C688D0E00E7E7D0 /* bootcampApp.swift */,
 				8C47AEF92C688D0E00E7E7D0 /* ContentView.swift */,
 				8C47AEFB2C688D0F00E7E7D0 /* Assets.xcassets */,
@@ -92,6 +97,15 @@
 				8C47AEFE2C688D0F00E7E7D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CE3D6872C70A8A700A2ACB8 /* grids */ = {
+			isa = PBXGroup;
+			children = (
+				8CE3D6852C7085CB00A2ACB8 /* GridTutorial.swift */,
+				8CE3D6882C70A8C900A2ACB8 /* InstagramTutorial.swift */,
+			);
+			path = grids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,12 +181,14 @@
 				8C47AEFA2C688D0E00E7E7D0 /* ContentView.swift in Sources */,
 				8C074E8E2C6C8DA80080BCAE /* ScrollViewTutorial.swift in Sources */,
 				8CBABFE92C6B6B6A00CD9A73 /* LoopTutorial.swift in Sources */,
+				8CE3D6862C7085CB00A2ACB8 /* GridTutorial.swift in Sources */,
 				8C47AF082C68C35D00E7E7D0 /* TextTutorial.swift in Sources */,
 				8C47AEF82C688D0E00E7E7D0 /* bootcampApp.swift in Sources */,
 				8C6CB98B2C6A221F001C1ABD /* PaddingTutorial.swift in Sources */,
 				8CBABFE72C6B61E500CD9A73 /* SpacerTutorial.swift in Sources */,
 				8C6CB9872C69E336001C1ABD /* ImagesTutorial.swift in Sources */,
 				8C6CB9852C69D8A2001C1ABD /* IconTutorial.swift in Sources */,
+				8CE3D6892C70A8C900A2ACB8 /* InstagramTutorial.swift in Sources */,
 				8C6CB9892C6A03C2001C1ABD /* StackTutorials.swift in Sources */,
 				8C47AF0A2C68C42000E7E7D0 /* ShapesTutorial.swift in Sources */,
 			);
