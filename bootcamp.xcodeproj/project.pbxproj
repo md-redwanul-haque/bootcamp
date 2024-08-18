@@ -15,6 +15,7 @@
 		8C47AF082C68C35D00E7E7D0 /* TextTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47AF072C68C35D00E7E7D0 /* TextTutorial.swift */; };
 		8C47AF0A2C68C42000E7E7D0 /* ShapesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47AF092C68C42000E7E7D0 /* ShapesTutorial.swift */; };
 		8C521CCB2C71D5F5006D2B94 /* ButtonsTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C521CCA2C71D5F5006D2B94 /* ButtonsTutorial.swift */; };
+		8C521CCD2C71F126006D2B94 /* StatePorpertyTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C521CCC2C71F126006D2B94 /* StatePorpertyTutorial.swift */; };
 		8C6CB9852C69D8A2001C1ABD /* IconTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB9842C69D8A2001C1ABD /* IconTutorial.swift */; };
 		8C6CB9872C69E336001C1ABD /* ImagesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB9862C69E336001C1ABD /* ImagesTutorial.swift */; };
 		8C6CB9892C6A03C2001C1ABD /* StackTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB9882C6A03C2001C1ABD /* StackTutorials.swift */; };
@@ -35,6 +36,7 @@
 		8C47AF072C68C35D00E7E7D0 /* TextTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTutorial.swift; sourceTree = "<group>"; };
 		8C47AF092C68C42000E7E7D0 /* ShapesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTutorial.swift; sourceTree = "<group>"; };
 		8C521CCA2C71D5F5006D2B94 /* ButtonsTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsTutorial.swift; sourceTree = "<group>"; };
+		8C521CCC2C71F126006D2B94 /* StatePorpertyTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePorpertyTutorial.swift; sourceTree = "<group>"; };
 		8C6CB9842C69D8A2001C1ABD /* IconTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTutorial.swift; sourceTree = "<group>"; };
 		8C6CB9862C69E336001C1ABD /* ImagesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTutorial.swift; sourceTree = "<group>"; };
 		8C6CB9882C6A03C2001C1ABD /* StackTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTutorials.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		8C47AEEB2C688D0E00E7E7D0 = {
 			isa = PBXGroup;
 			children = (
+				8C521CCC2C71F126006D2B94 /* StatePorpertyTutorial.swift */,
 				8C47AEF62C688D0E00E7E7D0 /* bootcamp */,
 				8C47AEF52C688D0E00E7E7D0 /* Products */,
 			);
@@ -194,6 +197,7 @@
 				8C6CB9852C69D8A2001C1ABD /* IconTutorial.swift in Sources */,
 				8CE3D6892C70A8C900A2ACB8 /* InstagramTutorial.swift in Sources */,
 				8C6CB9892C6A03C2001C1ABD /* StackTutorials.swift in Sources */,
+				8C521CCD2C71F126006D2B94 /* StatePorpertyTutorial.swift in Sources */,
 				8C47AF0A2C68C42000E7E7D0 /* ShapesTutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
