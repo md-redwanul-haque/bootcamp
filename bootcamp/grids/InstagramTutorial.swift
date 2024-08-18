@@ -8,6 +8,18 @@
 import SwiftUI
 
 struct InstagramTutorial: View {
+    let columns = [GridItem(.flexible()),GridItem(.flexible()),GridItem(.flexible())]
+    var imageList = ["bt1",
+                  "bt2",
+                  "bt3",
+                  "bt4",
+                  "bt5",
+                  "bt6",
+                  "bt7",
+                  "bt8",
+                  "bt9",
+    ]
+    let imageDimension = UIScreen.main.bounds.width / 3
     var body: some View {
         ScrollView{
             VStack{
@@ -106,9 +118,57 @@ struct InstagramTutorial: View {
                     Spacer()
                 }
                 
+                HStack{
+                    Text("Following")
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                        .frame(width: 152,height: 34)
+                        .overlay(RoundedRectangle(cornerRadius: 4).stroke(Color(.systemGray5)))
+                 
+                    Text("message")
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                        .frame(width: 152, height: 34)
+                        .overlay(RoundedRectangle(cornerRadius: 4).stroke(Color(.systemGray5)))
+                    Image(systemName: "person.badge.plus")
+                        .frame(width: 32, height: 34)
+                        .overlay(RoundedRectangle(cornerRadius: 4).stroke(Color(.systemGray5)))
+                       
+ 
+                }
                 
+                HStack{
+                    Spacer()
+                    Image(systemName: "squareshape.split.3x3")
+                        .font(.title2)
+                    Spacer()
+                    Image(systemName: "play.rectangle")
+                        .font(.title2)
+                    Spacer()
+                    Image(systemName: "play")
+                        .font(.title2)
+                    Spacer()
+                    Image(systemName: "person.crop.square")
+                    Spacer()
+                    
+                    
+                    
+                }.padding(.vertical, 6)
+                    .foregroundColor(Color(.darkGray))
+                LazyVGrid(columns: columns,spacing: 0){
+                    ForEach( imageList, id:\.self){ images in
+                       Image(images)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: imageDimension, height: imageDimension)
+                            .border(Color.white)
+                            .clipped()
+                        
+                    }
+                }
+           
             }
-            .padding()
+            .padding(8)
             
             
             
