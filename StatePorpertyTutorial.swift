@@ -9,6 +9,8 @@ import SwiftUI
 
 struct StatePorpertyTutorial: View {
     @State var data = 0
+    @State var likeBUttonName = "heart"
+    @State var buttonColor = Color.black
     
     var body: some View {
         VStack{
@@ -39,6 +41,30 @@ struct StatePorpertyTutorial: View {
                         .foregroundColor(Color.white)
                         .clipShape(Circle())
                 }
+                
+                Button{
+                    
+                    if buttonColor == Color.black {
+                        buttonColor = Color.red
+                    }else{
+                        buttonColor = Color.black
+                    }
+                    
+                    if likeBUttonName == "heart" {
+                        likeBUttonName = "heart.fill"
+                    }else{
+                        likeBUttonName = "heart"
+                    }
+                    
+                } label: {
+                    Image(systemName: likeBUttonName)
+                        .font(.system(size: 30, weight: .semibold))
+                        .imageScale(.large)
+                        .foregroundColor(buttonColor)
+              
+                        
+                }
+                
             }
             
             
