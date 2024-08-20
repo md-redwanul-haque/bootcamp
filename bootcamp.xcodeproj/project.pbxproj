@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C074E8E2C6C8DA80080BCAE /* ScrollViewTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C074E8D2C6C8DA80080BCAE /* ScrollViewTutorial.swift */; };
+		8C2C4E9D2C730CC800E5896B /* ControlFlowTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C4E9C2C730CC800E5896B /* ControlFlowTutorial.swift */; };
 		8C47AEF82C688D0E00E7E7D0 /* bootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47AEF72C688D0E00E7E7D0 /* bootcampApp.swift */; };
 		8C47AEFA2C688D0E00E7E7D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47AEF92C688D0E00E7E7D0 /* ContentView.swift */; };
 		8C47AEFC2C688D0F00E7E7D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C47AEFB2C688D0F00E7E7D0 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		8C074E8D2C6C8DA80080BCAE /* ScrollViewTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTutorial.swift; sourceTree = "<group>"; };
+		8C2C4E9C2C730CC800E5896B /* ControlFlowTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowTutorial.swift; sourceTree = "<group>"; };
 		8C47AEF42C688D0E00E7E7D0 /* bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C47AEF72C688D0E00E7E7D0 /* bootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootcampApp.swift; sourceTree = "<group>"; };
 		8C47AEF92C688D0E00E7E7D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,7 +63,6 @@
 		8C47AEEB2C688D0E00E7E7D0 = {
 			isa = PBXGroup;
 			children = (
-				8C521CCC2C71F126006D2B94 /* StatePorpertyTutorial.swift */,
 				8C47AEF62C688D0E00E7E7D0 /* bootcamp */,
 				8C47AEF52C688D0E00E7E7D0 /* Products */,
 			);
@@ -78,6 +79,8 @@
 		8C47AEF62C688D0E00E7E7D0 /* bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				8C2C4E9C2C730CC800E5896B /* ControlFlowTutorial.swift */,
+				8C521CCC2C71F126006D2B94 /* StatePorpertyTutorial.swift */,
 				8CE3D6872C70A8A700A2ACB8 /* grids */,
 				8C47AEF72C688D0E00E7E7D0 /* bootcampApp.swift */,
 				8C47AEF92C688D0E00E7E7D0 /* ContentView.swift */,
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C47AEFA2C688D0E00E7E7D0 /* ContentView.swift in Sources */,
+				8C2C4E9D2C730CC800E5896B /* ControlFlowTutorial.swift in Sources */,
 				8C074E8E2C6C8DA80080BCAE /* ScrollViewTutorial.swift in Sources */,
 				8CBABFE92C6B6B6A00CD9A73 /* LoopTutorial.swift in Sources */,
 				8C521CCB2C71D5F5006D2B94 /* ButtonsTutorial.swift in Sources */,
