@@ -21,6 +21,7 @@
 		8C6CB9872C69E336001C1ABD /* ImagesTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB9862C69E336001C1ABD /* ImagesTutorial.swift */; };
 		8C6CB9892C6A03C2001C1ABD /* StackTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB9882C6A03C2001C1ABD /* StackTutorials.swift */; };
 		8C6CB98B2C6A221F001C1ABD /* PaddingTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CB98A2C6A221F001C1ABD /* PaddingTutorial.swift */; };
+		8CA1DA1E2C75ACB100E12991 /* loopTutorialCodeBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA1DA1D2C75ACB100E12991 /* loopTutorialCodeBreak.swift */; };
 		8CBABFE72C6B61E500CD9A73 /* SpacerTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBABFE62C6B61E500CD9A73 /* SpacerTutorial.swift */; };
 		8CBABFE92C6B6B6A00CD9A73 /* LoopTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBABFE82C6B6B6A00CD9A73 /* LoopTutorial.swift */; };
 		8CE3D6862C7085CB00A2ACB8 /* GridTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE3D6852C7085CB00A2ACB8 /* GridTutorial.swift */; };
@@ -43,6 +44,7 @@
 		8C6CB9862C69E336001C1ABD /* ImagesTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTutorial.swift; sourceTree = "<group>"; };
 		8C6CB9882C6A03C2001C1ABD /* StackTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTutorials.swift; sourceTree = "<group>"; };
 		8C6CB98A2C6A221F001C1ABD /* PaddingTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTutorial.swift; sourceTree = "<group>"; };
+		8CA1DA1D2C75ACB100E12991 /* loopTutorialCodeBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopTutorialCodeBreak.swift; sourceTree = "<group>"; };
 		8CBABFE62C6B61E500CD9A73 /* SpacerTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerTutorial.swift; sourceTree = "<group>"; };
 		8CBABFE82C6B6B6A00CD9A73 /* LoopTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopTutorial.swift; sourceTree = "<group>"; };
 		8CE3D6852C7085CB00A2ACB8 /* GridTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTutorial.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		8C47AEEB2C688D0E00E7E7D0 = {
 			isa = PBXGroup;
 			children = (
+				8CA1DA1D2C75ACB100E12991 /* loopTutorialCodeBreak.swift */,
 				8C47AEF62C688D0E00E7E7D0 /* bootcamp */,
 				8C47AEF52C688D0E00E7E7D0 /* Products */,
 			);
@@ -191,6 +194,7 @@
 				8C2C4E9D2C730CC800E5896B /* ControlFlowTutorial.swift in Sources */,
 				8C074E8E2C6C8DA80080BCAE /* ScrollViewTutorial.swift in Sources */,
 				8CBABFE92C6B6B6A00CD9A73 /* LoopTutorial.swift in Sources */,
+				8CA1DA1E2C75ACB100E12991 /* loopTutorialCodeBreak.swift in Sources */,
 				8C521CCB2C71D5F5006D2B94 /* ButtonsTutorial.swift in Sources */,
 				8CE3D6862C7085CB00A2ACB8 /* GridTutorial.swift in Sources */,
 				8C47AF082C68C35D00E7E7D0 /* TextTutorial.swift in Sources */,

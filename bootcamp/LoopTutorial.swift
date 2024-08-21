@@ -13,37 +13,19 @@ struct LoopTutorial: View {
                   "Person 3",
                   "Person 4",
                   "Person 5",]
+    var driverDetails = ["Person 1 Details",
+                  "Person 2 Details",
+                  "Person 3 Details",
+                  "Person 4 Details",
+                  "Person 5 Details",]
     
     
     var body: some View {
         VStack(alignment:.leading ){
             ForEach( driver, id: \.self){
-                driver in HStack{
-                    Image("spidy")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 56,height: 56)
-                        .clipShape(Circle())
-                    VStack(alignment: .leading){
-                        Text(driver)
-                            .font(.subheadline)
-                            .fontWeight(.bold)
-                        Text("lando Norris")
-                            .font(.subheadline)
-                            .foregroundColor(.gray)
-                        
-                        
-                    }
-                    Spacer()
-                        
-                    Image(systemName: "paperplane.circle.fill")
-                        .font(.title)
-                        .foregroundColor(Color(.systemBlue))
-                    
-                    
-                }
-                .padding(.horizontal)
-           
+                driverData in
+                loopTutorialCodeBreak(driverList: driverData, driverDetails: driverDetails)
+                
                 
             }
             Spacer()

@@ -8,11 +8,38 @@
 import SwiftUI
 
 struct loopTutorialCodeBreak: View {
+    var driverList:String
+    var driverDetails: [String]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Image("spidy")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 56,height: 56)
+                .clipShape(Circle())
+            VStack(alignment: .leading){
+                Text(driverList)
+                    .font(.subheadline)
+                    .fontWeight(.bold)
+                Text(driverDetails[1])
+                    .font(.subheadline)
+                    .foregroundColor(.gray)
+                
+                
+            }
+            Spacer()
+            
+            Image(systemName: "paperplane.circle.fill")
+                .font(.title)
+                .foregroundColor(Color(.systemBlue))
+            
+            
+        }
+        .padding(.horizontal)
     }
 }
 
 #Preview {
-    loopTutorialCodeBreak()
+    loopTutorialCodeBreak(driverList: "", driverDetails: [])
 }
