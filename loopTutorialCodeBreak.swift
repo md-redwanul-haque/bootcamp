@@ -9,7 +9,8 @@ import SwiftUI
 
 struct loopTutorialCodeBreak: View {
     var driverList:String
-    var driverDetails: [String]
+//    var driverDetails: [String]
+    var driverDetails: String
     
     var body: some View {
         HStack{
@@ -22,7 +23,7 @@ struct loopTutorialCodeBreak: View {
                 Text(driverList)
                     .font(.subheadline)
                     .fontWeight(.bold)
-                Text(driverDetails[1])
+                Text(driverDetails)
                     .font(.subheadline)
                     .foregroundColor(.gray)
                 
@@ -41,5 +42,5 @@ struct loopTutorialCodeBreak: View {
 }
 
 #Preview {
-    loopTutorialCodeBreak(driverList: "", driverDetails: [])
+    loopTutorialCodeBreak(driverList: "", driverDetails: "")
 }
