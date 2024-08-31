@@ -14,4 +14,7 @@ struct Restaurant: Identifiable {
     let rating : Double
     
     
+    
+    
+    
 }
