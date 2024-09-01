@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct DetailView: View {
+    
+    @Binding var showDetailView: Bool
+    @Binding var darkModeEnabled: Bool
     var body: some View {
-        Text("Details View!")
+        VStack{
+            Button{
+                showDetailView.toggle()
+                darkModeEnabled.toggle()
+            }label: {
+                Text("Dismiss")
+            }
+            
+            Toggle(isOn: $darkModeEnabled){
+                Text("Dark Mode")
+            }
+            
+            
+        }
     }
 }
 
-#Preview {
-    DetailView()
-}
+//#Preview {
+//    DetailView(showDetailView: .constant(false), darkModeEnabled: .constant(true))
+//}
+
+

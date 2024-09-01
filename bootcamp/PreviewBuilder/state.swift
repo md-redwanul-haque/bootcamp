@@ -14,11 +14,6 @@ struct stateTutorial: View {
         ZStack{
             Color(darkModeEnable ? .black : .white)
             VStack{
-                
-                Toggle(isOn: $darkModeEnable){
-                    Text("Dark Mode")
-                }
-                
                 Button{
                     showDetailsView.toggle()
                     
@@ -30,7 +25,7 @@ struct stateTutorial: View {
             }.padding()
         }
         .sheet(isPresented: $showDetailsView, content: {
-            DetailView()
+            DetailView(showDetailView: $showDetailsView, darkModeEnabled: $darkModeEnable)
             
         })
         
