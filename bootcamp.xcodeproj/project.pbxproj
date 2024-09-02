@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C00E82E2C85890500F2F11F /* StateVsObservedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00E82D2C85890500F2F11F /* StateVsObservedView.swift */; };
 		8C074E8E2C6C8DA80080BCAE /* ScrollViewTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C074E8D2C6C8DA80080BCAE /* ScrollViewTutorial.swift */; };
 		8C2C4E9D2C730CC800E5896B /* ControlFlowTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C4E9C2C730CC800E5896B /* ControlFlowTutorial.swift */; };
 		8C47AEF82C688D0E00E7E7D0 /* bootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C47AEF72C688D0E00E7E7D0 /* bootcampApp.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C00E82D2C85890500F2F11F /* StateVsObservedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVsObservedView.swift; sourceTree = "<group>"; };
 		8C074E8D2C6C8DA80080BCAE /* ScrollViewTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTutorial.swift; sourceTree = "<group>"; };
 		8C2C4E9C2C730CC800E5896B /* ControlFlowTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowTutorial.swift; sourceTree = "<group>"; };
 		8C47AEF42C688D0E00E7E7D0 /* bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C00E82C2C8588AD00F2F11F /* stateVsObservedObject */ = {
+			isa = PBXGroup;
+			children = (
+				8C00E82D2C85890500F2F11F /* StateVsObservedView.swift */,
+			);
+			path = stateVsObservedObject;
+			sourceTree = "<group>";
+		};
 		8C47AEEB2C688D0E00E7E7D0 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		8C47AEF62C688D0E00E7E7D0 /* bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				8C00E82C2C8588AD00F2F11F /* stateVsObservedObject */,
 				8C6B5AB62C831E5800B520D3 /* PreviewBuilder */,
 				8CA1DA212C75C9E700E12991 /* designWithModelClass */,
 				8C2C4E9C2C730CC800E5896B /* ControlFlowTutorial.swift */,
@@ -225,6 +236,7 @@
 				8CBABFE92C6B6B6A00CD9A73 /* LoopTutorial.swift in Sources */,
 				8CA1DA1E2C75ACB100E12991 /* loopTutorialCodeBreak.swift in Sources */,
 				8C521CCB2C71D5F5006D2B94 /* ButtonsTutorial.swift in Sources */,
+				8C00E82E2C85890500F2F11F /* StateVsObservedView.swift in Sources */,
 				8C6B5AB82C831EDB00B520D3 /* state.swift in Sources */,
 				8CE3D6862C7085CB00A2ACB8 /* GridTutorial.swift in Sources */,
 				8C47AF082C68C35D00E7E7D0 /* TextTutorial.swift in Sources */,
