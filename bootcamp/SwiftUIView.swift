@@ -6,13 +6,31 @@
 //
 
 import SwiftUI
+import Combine
 
-struct SwiftUIView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class TimerViewModel: ObservableObject {
+    @Published var currentTime = Date()
+    private var timerSubscription: AnyCancellable?
+    
+    // Boolean flag to track whether the timer is running
+    @Published var isTimerRunning = true
+
+    init() {
+        startTimer()
     }
-}
-
-#Preview {
-    SwiftUIView()
+    
+    // Function to start the timer
+    func startTimer() {
+        timerSubscription = Timer.publish(every: 1, on: .main, in: .common)
+            .autoconnect()
+            .sink { [weak self] time in
+                self?.currentTime = time
+            }
+    }
+    
+    // Function to stop the timer
+    func stopTimer() {
+        timerSubscription?.cancel()
+        isTimerRunning = false
+    }
 }
